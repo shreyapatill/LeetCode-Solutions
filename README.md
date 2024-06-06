@@ -15,9 +15,7 @@ Welcome to my LeetCode solutions repository. Here you will find my solutions to 
 To maintain clarity and consistency, the files are named following this convention:
 
 - Solution Script: `<problem-number>-<problem-name>-<difficulty>.py`
-  - Example: `0001-two-sum-easy.py`
 - Test Script: `test_<problem-number>-<problem-name>-<difficulty>.py`
-  - Example: `test_0001-two-sum-easy.py`
 - Problem Description (README): `README.md`
   - This file is inside a directory specific to the problem, which includes the problem number and name.
 
@@ -45,10 +43,20 @@ To maintain clarity and consistency, the files are named following this conventi
 
 - ...
 
-## Contributing
+## Steps to Add a New Problem (for PowerShell)
 
-Feel free to fork this repository and contribute by submitting pull requests.
+1. **Create the necessary directories and files**:
 
-## License
+   ```powershell
+   # Create the necessary directories
+   New-Item -ItemType Directory -Path solutions\easy\<problem-number>-<problem-name>
 
-This project is licensed under the MIT License.
+   # Create the solution file
+   New-Item -ItemType File -Path solutions\easy\<problem-number>-<problem-name>\<problem-number>-<problem-name>-easy.py
+
+   # Create the test file
+   New-Item -ItemType File -Path solutions\easy\<problem-number>-<problem-name>\test_<problem-number>-<problem-name>-easy.py
+
+   # Copy the README template to the new problem directory
+   Copy-Item -Path README_TEMPLATE.md -Destination solutions\easy\<problem-number>-<problem-name>\README.md
+   ```
