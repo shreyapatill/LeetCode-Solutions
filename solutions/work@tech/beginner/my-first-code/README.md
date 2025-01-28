@@ -1,4 +1,4 @@
-# {Problem Title}
+# My First Code
 
 | Acceptance Rate | Difficulty                                             |
 | --------------- | ------------------------------------------------------ |
