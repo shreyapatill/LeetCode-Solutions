@@ -1,46 +1,47 @@
 # {Problem Title}
 
-| Acceptance Rate | Difficulty                                             | Frequency           |
-| --------------- | ------------------------------------------------------ | ------------------- |
-| 87.7%           | ![Easy](https://img.shields.io/badge/Easy-brightgreen) | ████████████ 76.09% |
-| 76.5%           | ![Medium](https://img.shields.io/badge/Medium-yellow)  | ████████ 52.34%     |
-| 54.2%           | ![Hard](https://img.shields.io/badge/Hard-red)         | █████ 34.87%        |
+| Acceptance Rate | Difficulty                                             |
+| --------------- | ------------------------------------------------------ |
+| 66%           | ![Easy](https://img.shields.io/badge/Easy-brightgreen) |
 
 ## Problem Description
 
-{Problem description goes here.}
+Write a program to print:
+`My first code on workat.tech`
 
 ## Examples
 
-1. **Input**: `{Example 1 Input}`  
-   **Output**: `{Example 1 Output}`  
-   **Explanation**: {Example 1 Explanation}
-
-2. **Input**: `{Example 2 Input}`  
-   **Output**: `{Example 2 Output}`  
-   **Explanation**: {Example 2 Explanation}
+1. **No Input**  
+   **Output**: `My first code on workat.tech`   
+   **Explanation**: The program simply prints the specified string.
 
 ## Constraints
 
-{Constraints go here.}
+- Execution time limit: 1 second  
+- Memory limit: 256 MB
+
+Since there are no inputs, constraints on input size/values do not apply here.
 
 ## Solution
 
-{Solution description goes here.}
+This is a straightforward “Hello World”–type problem. We only need to print the required statement and then exit. No additional logic is required.
 
 ### Code
 
-```python
-{Solution code goes here.}
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    // Print the required line
+    cout << "My first code on workat.tech";
+    return 0;
+}
 ```
 
 ## Test Cases
 
-Input: `{Test Case 1 Input}`
-Output: `{Test Case 1 Output}`
+Since there is no input, we only have one “test case” to confirm the output matches exactly:
 
-Input: `{Test Case 2 Input}`
-Output: `{Test Case 2 Output}`
-
-Input: `{Test Case 3 Input}`
-Output: `{Test Case 3 Output}`
+- **Expected Output**:  
+  `My first code on workat.tech`
